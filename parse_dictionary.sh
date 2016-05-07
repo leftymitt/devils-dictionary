@@ -20,7 +20,8 @@ function PRINT_WORD() {
 		echo "      type: ${TYPE}"
 	fi
 	if ! [ -z "${DEF}" ]; then
-		echo "      def:  ${DEF}"
+		echo "      def: >- " 
+		echo "         ${DEF}"
 	fi
 	if ! [ -z "${POEM}" ]; then
 		echo "      poem: |+ "
@@ -57,10 +58,14 @@ while IFS= read -r CMD; do
 		continue
 	fi
 
+	CMD=$(echo "${CMD}" | sed -e 's/\(.*\):/\1\\:/g' | sed -e 's/\[/\\\[/g' | sed -e 's/\]/\\\]/g' | sed -e 's/^[ \t]*//g' | sed -e 's/_\([^_]*\)_/\<i\>\1\<\/i\>/g' | sed -e 's/"/\\"/g' )
+
 	if [ "${MODE}" == "NEW" ]; then
+#		BLOCK=${BLOCK}$(echo "${CMD}" | sed -e 's/\(.*\):/\1\\:/g' | sed -e 's/\[/\\\[/g' | sed -e 's/\]/\\\]/g' | sed -e 's/^[ \t]*//g')
 		BLOCK=${BLOCK}${CMD}
 	elif [ "${MODE}" == "WAIT" ]; then
-		NBLOCK=${NBLOCK}$(echo "${CMD}" | sed -e 's/^[ \t]*//g' | sed -e 's/^/         /g')$'\n'
+#		NBLOCK=${NBLOCK}$(echo "${CMD}" | sed -e 's/\(.*\):/\1\\:/g' | sed -e 's/"/\\"/g' | sed -e 's/\[/\\\[/g' | sed -e 's/\]/\\\]/g' | sed -e 's/^[ \t]*//g' | sed -e 's/^/         /g')$'\n'
+		NBLOCK=${NBLOCK}$(echo "${CMD}" | sed -e 's/^/         /g')$'\n'
 	fi
 
 
@@ -88,9 +93,9 @@ while IFS= read -r CMD; do
 #			TERM=$(echo "${BLOCK}" | perl -pe "s|(^[A-Z]+[A-Z'()or -]*[A-Z])[,\.].*|\1|" | tail -1)
 #			TYPE=$(echo "${BLOCK}" | sed -n "s/\(^[A-Z].*[A-Z]\)[,\.]\ \(.*\.\).*/\2/p" | cut -d" " -f1)
 #			DEF=$(echo "${BLOCK}" | perl -pe "s|^[A-Z]+[A-Z'()or -]*[A-Z\|'\|-]*[A-Z],\ .*?\.\ \ (.*)|\1|")
-			TERM=$(echo "${BLOCK}" | perl -pe "s/(^[A-Z][A-Z| ()or']*[A-Z])[.|,] ?(.*?\.)? *(.*\.)?/\1/p")
-			TYPE=$(echo "${BLOCK}" | perl -pe "s/(^[A-Z][A-Z| ()or']*[A-Z])[.|,] ?(.*?\.)? *(.*\.)?/\2/p")
-			DEF=$(echo "${BLOCK}" | perl -pe "s/(^[A-Z][A-Z| ()or']*[A-Z])[.|,] ?(.*?\.)? *(.*\.)?/\3/p")
+			TERM=$(echo "${BLOCK}" | perl -pe "s/(^[A-Z][A-Z| ()or']*[A-Z])[.|,] ?(.*?\.)? *(.*)?/\1/p")
+			TYPE=$(echo "${BLOCK}" | perl -pe "s/(^[A-Z][A-Z| ()or']*[A-Z])[.|,] ?(.*?\.)? *(.*)?/\2/p")
+			DEF=$(echo "${BLOCK}" | perl -pe "s/(^[A-Z][A-Z| ()or']*[A-Z])[.|,] ?(.*?\.)? *(.*)?/\3/p")
 #			if ! [ -z "${TERM}" ] && [ "${TERM}" != "\n" ]; then
 			if ! [ -z "${TERM}" ]; then
 				MODE="WAIT"
