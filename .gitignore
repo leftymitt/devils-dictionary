@@ -1,0 +1,8 @@
+# editor junk
+*.swp
+~*
+
+# uncompressed data
+!raw_data/
+raw_data/*
+!raw_data/*.zip
