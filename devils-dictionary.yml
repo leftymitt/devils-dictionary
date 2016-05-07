@@ -2384,11 +2384,19 @@ dictionary:
       type: n.
       def: >- 
          An officer of the Government, whose duty it is to enforce the wishes of the legislative power until such time as the judicial department shall be pleased to pronounce them invalid and of no effect.  Following is an extract from an old book entitled, _The Lunarian Astonished_ -- Pfeiffer & Co., Boston, 1803:
-
-    - word: LUNARIAN:  Then when your Congress has passed a law it goes directly to the Supreme Court in order that it may at once be known whether it is constitutional?TERRESTRIAN:  O no; it does not require the approval of the Supreme Court until having perhaps been enforced for many years somebody objects to its operation against himself -- I mean his client.  The President, if he approves it, begins to execute it at once.LUNARIAN:  Ah, the executive power is a part of the legislative.  Do your policemen also have to approve the local ordinances that they enforce?TERRESTRIAN:  Not yet -- at least not in their character of constables.  Generally speaking, though, all laws require the approval of those whom they are intended to restrain.LUNARIAN:  I see.  The death warrant is not valid until signed by the murderer.TERRESTRIAN:  My friend, you put it too strongly; we are not so consistent.LUNARIAN:  But this system of maintaining an expensive judicial machinery to pass upon the validity of laws only after they have long been executed, and then only when brought before the court by some private person -- does it not cause great confusion?TERRESTRIAN:  It does.LUNARIAN:  Why then should not your laws, previously to being executed, be validated, not by the signature of your President, but by that of the Chief Justice of the Supreme Court?TERRESTRIAN:  There is no precedent for any such course.LUNARIAN:  Precedent.  What is that?TERRESTRIAN:  It has been defined by five hundred lawyers in three volumes each.  So how can any one know?
-      type: LUNARIAN:  Then when your Congress has passed a law it goes directly to the Supreme Court in order that it may at once be known whether it is constitutional?TERRESTRIAN:  O no; it does not require the approval of the Supreme Court until having perhaps been enforced for many years somebody objects to its operation against himself -- I mean his client.  The President, if he approves it, begins to execute it at once.LUNARIAN:  Ah, the executive power is a part of the legislative.  Do your policemen also have to approve the local ordinances that they enforce?TERRESTRIAN:  Not yet -- at least not in their character of constables.  Generally speaking, though, all laws require the approval of those whom they are intended to restrain.LUNARIAN:  I see.  The death warrant is not valid until signed by the murderer.TERRESTRIAN:  My friend, you put it too strongly; we are not so consistent.LUNARIAN:  But this system of maintaining an expensive judicial machinery to pass upon the validity of laws only after they have long been executed, and then only when brought before the court by some private person -- does it not cause great confusion?TERRESTRIAN:  It does.LUNARIAN:  Why then should not your laws, previously to being executed, be validated, not by the signature of your President, but by that of the Chief Justice of the Supreme Court?TERRESTRIAN:  There is no precedent for any such course.LUNARIAN:  Precedent.  What is that?TERRESTRIAN:  It has been defined by five hundred lawyers in three volumes each.  So how can any one know?
-      def: >- 
-         LUNARIAN:  Then when your Congress has passed a law it goes directly to the Supreme Court in order that it may at once be known whether it is constitutional?TERRESTRIAN:  O no; it does not require the approval of the Supreme Court until having perhaps been enforced for many years somebody objects to its operation against himself -- I mean his client.  The President, if he approves it, begins to execute it at once.LUNARIAN:  Ah, the executive power is a part of the legislative.  Do your policemen also have to approve the local ordinances that they enforce?TERRESTRIAN:  Not yet -- at least not in their character of constables.  Generally speaking, though, all laws require the approval of those whom they are intended to restrain.LUNARIAN:  I see.  The death warrant is not valid until signed by the murderer.TERRESTRIAN:  My friend, you put it too strongly; we are not so consistent.LUNARIAN:  But this system of maintaining an expensive judicial machinery to pass upon the validity of laws only after they have long been executed, and then only when brought before the court by some private person -- does it not cause great confusion?TERRESTRIAN:  It does.LUNARIAN:  Why then should not your laws, previously to being executed, be validated, not by the signature of your President, but by that of the Chief Justice of the Supreme Court?TERRESTRIAN:  There is no precedent for any such course.LUNARIAN:  Precedent.  What is that?TERRESTRIAN:  It has been defined by five hundred lawyers in three volumes each.  So how can any one know?
+      poem: |+ 
+         LUNARIAN:  Then when your Congress has passed a law it goes directly to the Supreme Court in order that it may at once be known whether it is constitutional?
+         TERRESTRIAN:  O no; it does not require the approval of the Supreme Court until having perhaps been enforced for many years somebody objects to its operation against himself -- I mean his client.  The President, if he approves it, begins to execute it at once.
+         LUNARIAN:  Ah, the executive power is a part of the legislative.  Do your policemen also have to approve the local ordinances that they enforce?
+         TERRESTRIAN:  Not yet -- at least not in their character of constables.  Generally speaking, though, all laws require the approval of those whom they are intended to restrain.
+         LUNARIAN:  I see.  The death warrant is not valid until signed by the murderer.
+         TERRESTRIAN:  My friend, you put it too strongly; we are not so consistent.
+         LUNARIAN:  But this system of maintaining an expensive judicial machinery to pass upon the validity of laws only after they have long been executed, and then only when brought before the court by some private person -- does it not cause great confusion?
+         TERRESTRIAN:  It does.
+         LUNARIAN:  Why then should not your laws, previously to being executed, be validated, not by the signature of your President, but by that of the Chief Justice of the Supreme Court?
+         TERRESTRIAN:  There is no precedent for any such course.
+         LUNARIAN:  Precedent.  What is that?
+         TERRESTRIAN:  It has been defined by five hundred lawyers in three volumes each.  So how can any one know?
 
     - word: EXHORT
       type: v.t.
@@ -3558,8 +3566,8 @@ dictionary:
 
  - letter: I
    terms:
-    - word: I is the first letter of the alphabet, the first word of the language, the first thought of the mind, the first object of affection.  In grammar it is a pronoun of the first person and singular number.  Its plural is said to be <i>We</i>, but how there can be more than one myself is doubtless clearer the grammarians than it is to the author of this incomparable dictionary.  Conception of two myselfs is difficult, but fine.  The frank yet graceful use of "I" distinguishes a good writer from a bad; the latter carries it with the manner of a thief trying to cloak his loot.
-      type: I is the first letter of the alphabet, the first word of the language, the first thought of the mind, the first object of affection.  In grammar it is a pronoun of the first person and singular number.  Its plural is said to be <i>We</i>, but how there can be more than one myself is doubtless clearer the grammarians than it is to the author of this incomparable dictionary.  Conception of two myselfs is difficult, but fine.  The frank yet graceful use of "I" distinguishes a good writer from a bad; the latter carries it with the manner of a thief trying to cloak his loot.
+    - word: I 
+      type: ""
       def: >- 
          I is the first letter of the alphabet, the first word of the language, the first thought of the mind, the first object of affection.  In grammar it is a pronoun of the first person and singular number.  Its plural is said to be <i>We</i>, but how there can be more than one myself is doubtless clearer the grammarians than it is to the author of this incomparable dictionary.  Conception of two myselfs is difficult, but fine.  The frank yet graceful use of "I" distinguishes a good writer from a bad; the latter carries it with the manner of a thief trying to cloak his loot.
 
@@ -4044,10 +4052,41 @@ dictionary:
       def: >- 
          An ingenious modern game of chance in which the player is permitted to enjoy the comfortable conviction that he is beating the man who keeps the table.
 
-    - word: INSURANCE AGENT:  My dear sir, that is a fine house -- pray let me insure it.HOUSE OWNER:  With pleasure.  Please make the annual premium so low that by the time when, according to the tables of your actuary, it will probably be destroyed by fire I will have paid you considerably less than the face of the policy.INSURANCE AGENT:  O dear, no -- we could not afford to do that.  We must fix the premium so that you will have paid more.HOUSE OWNER:  How, then, can <i>I</i> afford <i>that</i>?INSURANCE AGENT:  Why, your house may burn down at any time.  There was Smith's house, for example, which --HOUSE OWNER:  Spare me -- there were Brown's house, on the contrary, and Jones's house, and Robinson's house, which --INSURANCE AGENT:  Spare <i>me</i>!HOUSE OWNER:  Let us understand each other.  You want me to pay you money on the supposition that something will occur previously to the time set by yourself for its occurrence.  In other words, you expect me to bet that my house will not last so long as you say that it will probably last.INSURANCE AGENT:  But if your house burns without insurance it will be a total loss.HOUSE OWNER:  Beg your pardon -- by your own actuary's tables I shall probably have saved, when it burns, all the premiums I would otherwise have paid to you -- amounting to more than the face of the policy they would have bought.  But suppose it to burn, uninsured, before the time upon which your figures are based.  If I could not afford that, how could you if it were insured?INSURANCE AGENT:  O, we should make ourselves whole from our luckier ventures with other clients.  Virtually, they pay your loss.HOUSE OWNER:  And virtually, then, don't I help to pay their losses?  Are not their houses as likely as mine to burn before they have paid you as much as you must pay them?  The case stands this way:  you expect to take more money from your clients than you pay to them, do you not?INSURANCE AGENT:  Certainly; if we did not --HOUSE OWNER:  I would not trust you with my money.  Very well then.  If it is <i>certain</i>, with reference to the whole body of your clients, that they lose money on you it is <i>probable</i>, with reference to any one of them, that <i>he</i> will.  It is these individual probabilities that make the aggregate certainty.INSURANCE AGENT:  I will not deny it -- but look at the figures in this pamph --HOUSE OWNER:  Heaven forbid!INSURANCE AGENT:  You spoke of saving the premiums which you would otherwise pay to me.  Will you not be more likely to squander them?  We offer you an incentive to thrift.HOUSE OWNER:  The willingness of A to take care of B's money is not peculiar to insurance, but as a charitable institution you command esteem.  Deign to accept its expression from a Deserving Object.
-      type: INSURANCE AGENT:  My dear sir, that is a fine house -- pray let me insure it.HOUSE OWNER:  With pleasure.  Please make the annual premium so low that by the time when, according to the tables of your actuary, it will probably be destroyed by fire I will have paid you considerably less than the face of the policy.INSURANCE AGENT:  O dear, no -- we could not afford to do that.  We must fix the premium so that you will have paid more.HOUSE OWNER:  How, then, can <i>I</i> afford <i>that</i>?INSURANCE AGENT:  Why, your house may burn down at any time.  There was Smith's house, for example, which --HOUSE OWNER:  Spare me -- there were Brown's house, on the contrary, and Jones's house, and Robinson's house, which --INSURANCE AGENT:  Spare <i>me</i>!HOUSE OWNER:  Let us understand each other.  You want me to pay you money on the supposition that something will occur previously to the time set by yourself for its occurrence.  In other words, you expect me to bet that my house will not last so long as you say that it will probably last.INSURANCE AGENT:  But if your house burns without insurance it will be a total loss.HOUSE OWNER:  Beg your pardon -- by your own actuary's tables I shall probably have saved, when it burns, all the premiums I would otherwise have paid to you -- amounting to more than the face of the policy they would have bought.  But suppose it to burn, uninsured, before the time upon which your figures are based.  If I could not afford that, how could you if it were insured?INSURANCE AGENT:  O, we should make ourselves whole from our luckier ventures with other clients.  Virtually, they pay your loss.HOUSE OWNER:  And virtually, then, don't I help to pay their losses?  Are not their houses as likely as mine to burn before they have paid you as much as you must pay them?  The case stands this way:  you expect to take more money from your clients than you pay to them, do you not?INSURANCE AGENT:  Certainly; if we did not --HOUSE OWNER:  I would not trust you with my money.  Very well then.  If it is <i>certain</i>, with reference to the whole body of your clients, that they lose money on you it is <i>probable</i>, with reference to any one of them, that <i>he</i> will.  It is these individual probabilities that make the aggregate certainty.INSURANCE AGENT:  I will not deny it -- but look at the figures in this pamph --HOUSE OWNER:  Heaven forbid!INSURANCE AGENT:  You spoke of saving the premiums which you would otherwise pay to me.  Will you not be more likely to squander them?  We offer you an incentive to thrift.HOUSE OWNER:  The willingness of A to take care of B's money is not peculiar to insurance, but as a charitable institution you command esteem.  Deign to accept its expression from a Deserving Object.
-      def: >- 
-         INSURANCE AGENT:  My dear sir, that is a fine house -- pray let me insure it.HOUSE OWNER:  With pleasure.  Please make the annual premium so low that by the time when, according to the tables of your actuary, it will probably be destroyed by fire I will have paid you considerably less than the face of the policy.INSURANCE AGENT:  O dear, no -- we could not afford to do that.  We must fix the premium so that you will have paid more.HOUSE OWNER:  How, then, can <i>I</i> afford <i>that</i>?INSURANCE AGENT:  Why, your house may burn down at any time.  There was Smith's house, for example, which --HOUSE OWNER:  Spare me -- there were Brown's house, on the contrary, and Jones's house, and Robinson's house, which --INSURANCE AGENT:  Spare <i>me</i>!HOUSE OWNER:  Let us understand each other.  You want me to pay you money on the supposition that something will occur previously to the time set by yourself for its occurrence.  In other words, you expect me to bet that my house will not last so long as you say that it will probably last.INSURANCE AGENT:  But if your house burns without insurance it will be a total loss.HOUSE OWNER:  Beg your pardon -- by your own actuary's tables I shall probably have saved, when it burns, all the premiums I would otherwise have paid to you -- amounting to more than the face of the policy they would have bought.  But suppose it to burn, uninsured, before the time upon which your figures are based.  If I could not afford that, how could you if it were insured?INSURANCE AGENT:  O, we should make ourselves whole from our luckier ventures with other clients.  Virtually, they pay your loss.HOUSE OWNER:  And virtually, then, don't I help to pay their losses?  Are not their houses as likely as mine to burn before they have paid you as much as you must pay them?  The case stands this way:  you expect to take more money from your clients than you pay to them, do you not?INSURANCE AGENT:  Certainly; if we did not --HOUSE OWNER:  I would not trust you with my money.  Very well then.  If it is <i>certain</i>, with reference to the whole body of your clients, that they lose money on you it is <i>probable</i>, with reference to any one of them, that <i>he</i> will.  It is these individual probabilities that make the aggregate certainty.INSURANCE AGENT:  I will not deny it -- but look at the figures in this pamph --HOUSE OWNER:  Heaven forbid!INSURANCE AGENT:  You spoke of saving the premiums which you would otherwise pay to me.  Will you not be more likely to squander them?  We offer you an incentive to thrift.HOUSE OWNER:  The willingness of A to take care of B's money is not peculiar to insurance, but as a charitable institution you command esteem.  Deign to accept its expression from a Deserving Object.
+      poem: |+ 
+         INSURANCE AGENT:  My dear sir, that is a fine house -- pray let me insure it.
+
+         HOUSE OWNER:  With pleasure.  Please make the annual premium so low that by the time when, according to the tables of your actuary, it will probably be destroyed by fire I will have paid you considerably less than the face of the policy.
+
+         INSURANCE AGENT:  O dear, no -- we could not afford to do that.  We must fix the premium so that you will have paid more.
+
+         HOUSE OWNER:  How, then, can <i>I</i> afford <i>that</i>?
+
+         INSURANCE AGENT:  Why, your house may burn down at any time.  There was Smith's house, for example, which --
+
+         HOUSE OWNER:  Spare me -- there were Brown's house, on the contrary, and Jones's house, and Robinson's house, which --
+
+         INSURANCE AGENT:  Spare <i>me</i>!
+
+         HOUSE OWNER:  Let us understand each other.  You want me to pay you money on the supposition that something will occur previously to the time set by yourself for its occurrence.  In other words, you expect me to bet that my house will not last so long as you say that it will probably last.
+
+         INSURANCE AGENT:  But if your house burns without insurance it will be a total loss.
+
+         HOUSE OWNER:  Beg your pardon -- by your own actuary's tables I shall probably have saved, when it burns, all the premiums I would otherwise have paid to you -- amounting to more than the face of the policy they would have bought.  But suppose it to burn, uninsured, before the time upon which your figures are based.  If I could not afford that, how could you if it were insured?
+
+         INSURANCE AGENT:  O, we should make ourselves whole from our luckier ventures with other clients.  Virtually, they pay your loss.
+
+         HOUSE OWNER:  And virtually, then, don't I help to pay their losses?  Are not their houses as likely as mine to burn before they have paid you as much as you must pay them?  The case stands this way:  you expect to take more money from your clients than you pay to them, do you not?
+
+         INSURANCE AGENT:  Certainly; if we did not --
+         HOUSE OWNER:  I would not trust you with my money.  Very well then.  If it is <i>certain</i>, with reference to the whole body of your clients, that they lose money on you it is <i>probable</i>, with reference to any one of them, that <i>he</i> will.  It is these individual probabilities that make the aggregate certainty.
+
+         INSURANCE AGENT:  I will not deny it -- but look at the figures in this pamph --
+
+         HOUSE OWNER:  Heaven forbid!
+
+         INSURANCE AGENT:  You spoke of saving the premiums which you would otherwise pay to me.  Will you not be more likely to squander them?  We offer you an incentive to thrift.
+
+         HOUSE OWNER:  The willingness of A to take care of B's money is not peculiar to insurance, but as a charitable institution you command esteem.  Deign to accept its expression from a Deserving Object.
 
     - word: INSURRECTION
       type: n.
@@ -4131,8 +4170,8 @@ dictionary:
 
  - letter: J
    terms:
-    - word: J is a consonant in English, but some nations use it as a vowel -- than which nothing could be more absurd.  Its original form, which has been but slightly modified, was that of the tail of a subdued dog, and it was not a letter but a character, standing for a Latin verb, <i>jacere</i>, "to throw," because when a stone is thrown at a dog the dog's tail assumes that shape.  This is the origin of the letter, as expounded by the renowned Dr. Jocolpus Bumer, of the University of Belgrade, who established his conclusions on the subject in a work of three quarto volumes and committed suicide on being reminded that the j in the Roman alphabet had originally no curl.
-      type: J is a consonant in English, but some nations use it as a vowel -- than which nothing could be more absurd.  Its original form, which has been but slightly modified, was that of the tail of a subdued dog, and it was not a letter but a character, standing for a Latin verb, <i>jacere</i>, "to throw," because when a stone is thrown at a dog the dog's tail assumes that shape.  This is the origin of the letter, as expounded by the renowned Dr. Jocolpus Bumer, of the University of Belgrade, who established his conclusions on the subject in a work of three quarto volumes and committed suicide on being reminded that the j in the Roman alphabet had originally no curl.
+    - word: J 
+      type: ""
       def: >- 
          J is a consonant in English, but some nations use it as a vowel -- than which nothing could be more absurd.  Its original form, which has been but slightly modified, was that of the tail of a subdued dog, and it was not a letter but a character, standing for a Latin verb, <i>jacere</i>, "to throw," because when a stone is thrown at a dog the dog's tail assumes that shape.  This is the origin of the letter, as expounded by the renowned Dr. Jocolpus Bumer, of the University of Belgrade, who established his conclusions on the subject in a work of three quarto volumes and committed suicide on being reminded that the j in the Roman alphabet had originally no curl.
 
@@ -4191,8 +4230,8 @@ dictionary:
 
  - letter: K
    terms:
-    - word: K is a consonant that we get from the Greeks, but it can be traced away back beyond them to the Cerathians, a small commercial nation inhabiting the peninsula of Smero.  In their tongue it was called <i>Klatch</i>, which means "destroyed."  The form of the letter was originally precisely that of our H, but the erudite Dr. Snedeker explains that it was altered to its present shape to commemorate the destruction of the great temple of Jarute by an earthquake, <i>circa</i> 730 B.C.  This building was famous for the two lofty columns of its portico, one of which was broken in half by the catastrophe, the other remaining intact.  As the earlier form of the letter is supposed to have been suggested by these pillars, so, it is thought by the great antiquary, its later was adopted as a simple and natural -- not to say touching -- means of keeping the calamity ever in the national memory.  It is not known if the name of the letter was altered as an additional mnemonic, or if the name was always <i>Klatch</i> and the destruction one of nature's pums.  As each theory seems probable enough, I see no objection to believing both -- and Dr. Snedeker arrayed himself on that side of the question.
-      type: K is a consonant that we get from the Greeks, but it can be traced away back beyond them to the Cerathians, a small commercial nation inhabiting the peninsula of Smero.  In their tongue it was called <i>Klatch</i>, which means "destroyed."  The form of the letter was originally precisely that of our H, but the erudite Dr. Snedeker explains that it was altered to its present shape to commemorate the destruction of the great temple of Jarute by an earthquake, <i>circa</i> 730 B.C.  This building was famous for the two lofty columns of its portico, one of which was broken in half by the catastrophe, the other remaining intact.  As the earlier form of the letter is supposed to have been suggested by these pillars, so, it is thought by the great antiquary, its later was adopted as a simple and natural -- not to say touching -- means of keeping the calamity ever in the national memory.  It is not known if the name of the letter was altered as an additional mnemonic, or if the name was always <i>Klatch</i> and the destruction one of nature's pums.  As each theory seems probable enough, I see no objection to believing both -- and Dr. Snedeker arrayed himself on that side of the question.
+    - word: K 
+      type: ""
       def: >- 
          K is a consonant that we get from the Greeks, but it can be traced away back beyond them to the Cerathians, a small commercial nation inhabiting the peninsula of Smero.  In their tongue it was called <i>Klatch</i>, which means "destroyed."  The form of the letter was originally precisely that of our H, but the erudite Dr. Snedeker explains that it was altered to its present shape to commemorate the destruction of the great temple of Jarute by an earthquake, <i>circa</i> 730 B.C.  This building was famous for the two lofty columns of its portico, one of which was broken in half by the catastrophe, the other remaining intact.  As the earlier form of the letter is supposed to have been suggested by these pillars, so, it is thought by the great antiquary, its later was adopted as a simple and natural -- not to say touching -- means of keeping the calamity ever in the national memory.  It is not known if the name of the letter was altered as an additional mnemonic, or if the name was always <i>Klatch</i> and the destruction one of nature's pums.  As each theory seems probable enough, I see no objection to believing both -- and Dr. Snedeker arrayed himself on that side of the question.
 
@@ -4248,53 +4287,52 @@ dictionary:
       type: n.
       def: >- 
          A malady that was formerly cured by the touch of the sovereign, but has now to be treated by the physicians.  Thus 'the most pious Edward" of England used to lay his royal hand upon the ailing subjects and make them whole --
-      poem: |+ 
          
-         a crowd of wretched souls
-         That stay his cure:  their malady convinces
-         The great essay of art; but at his touch,
-         Such sanctity hath Heaven given his hand,
-         They presently amend,
+         <blockquote>
+         <div class="uk-text-right">
+         a crowd of wretched souls<br>
+         That stay his cure:  their malady convinces<br>
+         The great essay of art; but at his touch,<br>
+         Such sanctity hath Heaven given his hand,<br>
+         They presently amend,<br>
+         </div>
+         </blockquote>
          
-         as the "Doctor" in <i>Macbeth</i> hath it.  This useful property of the 
-         royal hand could, it appears, be transmitted along with other crown 
-         properties; for according to "Malcolm,"
-         
-         
-         'tis spoken
-         To the succeeding royalty he leaves
-         The healing benediction.
-         
-         But the gift somewhere dropped out of the line of succession:  the 
-         later sovereigns of England have not been tactual healers, and the 
-         disease once honored with the name "king's evil" now bears the humbler 
-         one of "scrofula," from <i>scrofa</i>, a sow.  The date and author of the 
-         following epigram are known only to the author of this dictionary, but 
-         it is old enough to show that the jest about Scotland's national 
-         disorder is not a thing of yesterday.
-         
-         Ye Kynge his evill in me laye,
-         Wh. he of Scottlande charmed awaye.
-         He layde his hand on mine and sayd:
-         "Be gone!"  Ye ill no longer stayd.
-         But O ye wofull plyght in wh.
-         I'm now y-pight:  I have ye itche!
-         
-         The superstition that maladies can be cured by royal taction is 
-         dead, but like many a departed conviction it has left a monument of 
-         custom to keep its memory green.  The practice of forming a line and 
-         shaking the President's hand had no other origin, and when that great 
-         dignitary bestows his healing salutation on
+         as the "Doctor" in <i>Macbeth</i> hath it.  This useful property of the royal hand could, it appears, be transmitted along with other crown properties; for according to "Malcolm,"
          
          
-         strangely visited people,
-         All swoln and ulcerous, pitiful to the eye,
-         The mere despair of surgery,
+         <blockquote>
+         <div class="uk-text-right">
+         'tis spoken<br>
+         To the succeeding royalty he leaves<br>
+         The healing benediction.<br>
+         </div>
+         </blockquote>
          
-         he and his patients are handing along an extinguished torch which once 
-         was kindled at the altar-fire of a faith long held by all classes of 
-         men.  It is a beautiful and edifying "survival" -- one which brings 
-         the sainted past close home in our "business and bosoms."
+         But the gift somewhere dropped out of the line of succession:  the later sovereigns of England have not been tactual healers, and the disease once honored with the name "king's evil" now bears the humbler one of "scrofula," from <i>scrofa</i>, a sow.  The date and author of the following epigram are known only to the author of this dictionary, but it is old enough to show that the jest about Scotland's national disorder is not a thing of yesterday.
+         
+         <blockquote>
+         <div class="uk-text-right">
+         Ye Kynge his evill in me laye,<br>
+         Wh. he of Scottlande charmed awaye.<br>
+         He layde his hand on mine and sayd:<br>
+         "Be gone!"  Ye ill no longer stayd.<br>
+         But O ye wofull plyght in wh.<br>
+         I'm now y-pight:  I have ye itche!<br>
+         </div>
+         </blockquote>
+         
+         The superstition that maladies can be cured by royal taction is dead, but like many a departed conviction it has left a monument of custom to keep its memory green.  The practice of forming a line and shaking the President's hand had no other origin, and when that great dignitary bestows his healing salutation on
+         
+         <blockquote>
+         <div class="uk-text-right">
+         strangely visited people,<br>
+         All swoln and ulcerous, pitiful to the eye,<br>
+         The mere despair of surgery,<br>
+         </div>
+         </blockquote>
+         
+         he and his patients are handing along an extinguished torch which once was kindled at the altar-fire of a faith long held by all classes of men.  It is a beautiful and edifying "survival" -- one which brings the sainted past close home in our "business and bosoms."
          
 
     - word: KISS
@@ -6347,12 +6385,13 @@ dictionary:
       type: n.
       def: >- 
          A place of punishments and rewards.  The poet assures us that --
-      poem: |+ 
+
+         <blockquote>
          "Stone walls do not a prison make,"
+         </blockquote>
          
          but a combination of the stone wall, the political parasite and the 
          moral instructor is no garden of sweets.
-         
 
     - word: PRIVATE
       type: n.
@@ -6727,17 +6766,23 @@ dictionary:
       type: adj.
       def: >- 
          Superfluous; needless; <i>de trop</i>.
-      poem: |+ 
-         The Sultan said:  "There's evidence abundant
-         To prove this unbelieving dog redundant."
-         To whom the Grand Vizier, with mien impressive,
-         Replied:  "His head, at least, appears excessive."
+
+         <blockquote>
+         <p>
+         The Sultan said:  "There's evidence abundant<br>
+         To prove this unbelieving dog redundant."<br>
+         To whom the Grand Vizier, with mien impressive,<br>
+         Replied:  "His head, at least, appears excessive."<br>
+         </p>
+         <p>Habeeb Suleiman</p>
+         </blockquote>
          
-         Habeeb Suleiman
-         
+         <blockquote>
+         <p>
          Mr. Debs is a redundant citizen.
-         
-         Theodore Roosevelt
+         </p>
+         <p>Theodore Roosevelt</p>
+         </blockquote>
          
 
     - word: REFERENDUM
@@ -7061,22 +7106,32 @@ dictionary:
 
     - word: RICHES
       type: n.
-      poem: |+ 
-         A gift from Heaven signifying, "This is my beloved son, in 
-         whom I am well pleased."
+      def:  |+ 
+         <blockquote>
+         <p>
+         A gift from Heaven signifying, "This is my beloved son, in whom I am well pleased."<br>
          
-         John D. Rockefeller
+         John D. Rockefeller<br>
+         </p>
+         </blockquote>
          
-         The reward of toil and virtue.
+         <blockquote>
+         <p>
+         The reward of toil and virtue.<br>
          
-         J.P. Morgan
+         J.P. Morgan<br>
+         </p>
+         </blockquote>
          
-         The sayings of many in the hands of one.
+         <blockquote>
+         <p>
+         The sayings of many in the hands of one.<br>
          
-         Eugene Debs
+         Eugene Debs<br>
+         </p>
+         </blockquote>
          
-         To these excellent definitions the inspired lexicographer feels 
-         that he can add nothing of value.
+         To these excellent definitions the inspired lexicographer feels that he can add nothing of value.
          
 
     - word: RIDICULE
@@ -7109,17 +7164,7 @@ dictionary:
       def: >- 
          A sturdy virtue that was once found among the Pantidoodles inhabiting the lower part of the peninsula of Oque.  Some feeble attempts were made by returned missionaries to introduce it into several European countries, but it appears to have been imperfectly expounded.  An example of this faulty exposition is found in the only extant sermon of the pious Bishop Rowley, a characteristic passage from which is here given:
       poem: |+ 
-         "Now righteousness consisteth not merely in a holy state of 
-         mind, nor yet in performance of religious rites and obedience to 
-         the letter of the law.  It is not enough that one be pious and 
-         just:  one must see to it that others also are in the same state; 
-         and to this end compulsion is a proper means.  Forasmuch as my 
-         injustice may work ill to another, so by his injustice may evil be 
-         wrought upon still another, the which it is as manifestly my duty 
-         to estop as to forestall mine own tort.  Wherefore if I would be 
-         righteous I am bound to restrain my neighbor, by force if needful, 
-         in all those injurious enterprises from which, through a better 
-         disposition and by the help of Heaven, I do myself restrain."
+         "Now righteousness consisteth not merely in a holy state of mind, nor yet in performance of religious rites and obedience to the letter of the law.  It is not enough that one be pious and just:  one must see to it that others also are in the same state; and to this end compulsion is a proper means.  Forasmuch as my injustice may work ill to another, so by his injustice may evil be wrought upon still another, the which it is as manifestly my duty to estop as to forestall mine own tort.  Wherefore if I would be righteous I am bound to restrain my neighbor, by force if needful, in all those injurious enterprises from which, through a better disposition and by the help of Heaven, I do myself restrain."
          
 
     - word: RIME
@@ -7147,10 +7192,7 @@ dictionary:
       def: >- 
          A popular entertainment given to the military by innocent bystanders.
       poem: |+ 
-         R.I.P.  A careless abbreviation of <i>requiescat in pace</i>, attesting to 
-         indolent goodwill to the dead.  According to the learned Dr. Drigge, 
-         however, the letters originally meant nothing more than _reductus in 
-         pulvis_.
+         R.I.P.  A careless abbreviation of <i>requiescat in pace</i>, attesting to indolent goodwill to the dead.  According to the learned Dr. Drigge,  however, the letters originally meant nothing more than <i>reductus in pulvis</i>.
          
 
     - word: RITE
@@ -7506,50 +7548,18 @@ dictionary:
       def: >- 
          A curved sword of exceeding keenness, in the conduct of which certain Orientals attain a surprising proficiency, as the incident here related will serve to show.  The account is translated from the Japanese by Shusi Itama, a famous writer of the thirteenth century.
       poem: |+ 
-         When the great Gichi-Kuktai was Mikado he condemned to 
-         decapitation Jijiji Ri, a high officer of the Court.  Soon after 
-         the hour appointed for performance of the rite what was his 
-         Majesty's surprise to see calmly approaching the throne the man 
-         who should have been at that time ten minutes dead!
-         "Seventeen hundred impossible dragons!" shouted the enraged 
-         monarch.  "Did I not sentence you to stand in the market-place and 
-         have your head struck off by the public executioner at three 
-         o'clock?  And is it not now 3:10?"
-         "Son of a thousand illustrious deities," answered the 
-         condemned minister, "all that you say is so true that the truth is 
-         a lie in comparison.  But your heavenly Majesty's sunny and 
-         vitalizing wishes have been pestilently disregarded.  With joy I 
-         ran and placed my unworthy body in the market-place.  The 
-         executioner appeared with his bare scimetar, ostentatiously 
-         whirled it in air, and then, tapping me lightly upon the neck, 
-         strode away, pelted by the populace, with whom I was ever a 
-         favorite.  I am come to pray for justice upon his own dishonorable 
-         and treasonous head."
-         "To what regiment of executioners does the black-boweled
-         caitiff belong?" asked the Mikado.
-         "To the gallant Ninety-eight Hundred and Thirty-seventh -- I 
-         know the man.  His name is Sakko-Samshi."
-         "Let him be brought before me," said the Mikado to an 
-         attendant, and a half-hour later the culprit stood in the 
-         Presence.
-         "Thou bastard son of a three-legged hunchback without thumbs!" 
-         roared the sovereign -- "why didst thou but lightly tap the neck 
-         that it should have been thy pleasure to sever?"
-         "Lord of Cranes of Cherry Blooms," replied the executioner, 
-         unmoved, "command him to blow his nose with his fingers."
-         Being commanded, Jijiji Ri laid hold of his nose and trumpeted 
-         like an elephant, all expecting to see the severed head flung 
-         violently from him.  Nothing occurred:  the performance prospered 
-         peacefully to the close, without incident.
-         All eyes were now turned on the executioner, who had grown as 
-         white as the snows on the summit of Fujiama.  His legs trembled 
-         and his breath came in gasps of terror.
-         "Several kinds of spike-tailed brass lions!" he cried; "I am a 
-         ruined and disgraced swordsman!  I struck the villain feebly 
-         because in flourishing the scimetar I had accidentally passed it 
-         through my own neck!  Father of the Moon, I resign my office."
-         So saying, he gasped his top-knot, lifted off his head, and 
-         advancing to the throne laid it humbly at the Mikado's feet.
+         When the great Gichi-Kuktai was Mikado he condemned to decapitation Jijiji Ri, a high officer of the Court.  Soon after the hour appointed for performance of the rite what was his Majesty's surprise to see calmly approaching the throne the man who should have been at that time ten minutes dead! <br>
+         "Seventeen hundred impossible dragons!" shouted the enraged monarch.  "Did I not sentence you to stand in the market-place and have your head struck off by the public executioner at three o'clock?  And is it not now 3:10?"<br>
+         "Son of a thousand illustrious deities," answered the condemned minister, "all that you say is so true that the truth is a lie in comparison.  But your heavenly Majesty's sunny and vitalizing wishes have been pestilently disregarded.  With joy I ran and placed my unworthy body in the market-place.  The executioner appeared with his bare scimetar, ostentatiously whirled it in air, and then, tapping me lightly upon the neck, strode away, pelted by the populace, with whom I was ever a favorite.  I am come to pray for justice upon his own dishonorable and treasonous head."<br>
+         "To what regiment of executioners does the black-boweledcaitiff belong?" asked the Mikado.<br>
+         "To the gallant Ninety-eight Hundred and Thirty-seventh -- I know the man.  His name is Sakko-Samshi."<br>
+         "Let him be brought before me," said the Mikado to an attendant, and a half-hour later the culprit stood in the Presence.<br>
+         "Thou bastard son of a three-legged hunchback without thumbs!" roared the sovereign -- "why didst thou but lightly tap the neck that it should have been thy pleasure to sever?" <br>
+         "Lord of Cranes of Cherry Blooms," replied the executioner, unmoved, "command him to blow his nose with his fingers."<br>
+         Being commanded, Jijiji Ri laid hold of his nose and trumpeted like an elephant, all expecting to see the severed head flung violently from him.  Nothing occurred:  the performance prospered peacefully to the close, without incident. <br>
+         All eyes were now turned on the executioner, who had grown as white as the snows on the summit of Fujiama.  His legs trembled and his breath came in gasps of terror.<br>
+         "Several kinds of spike-tailed brass lions!" he cried; "I am a ruined and disgraced swordsman!  I struck the villain feebly because in flourishing the scimetar I had accidentally passed it through my own neck!  Father of the Moon, I resign my office."<br>
+         So saying, he gasped his top-knot, lifted off his head, and advancing to the throne laid it humbly at the Mikado's feet.<br>
          
 
     - word: SCRAP-BOOK
@@ -7790,107 +7800,36 @@ dictionary:
       def: >- 
          A narrative, commonly untrue.  The truth of the stories here following has, however, not been successfully impeached.
       poem: |+ 
-         One evening Mr. Rudolph Block, of New York, found himself seated 
-         at dinner alongside Mr. Percival Pollard, the distinguished critic.
-         "Mr. Pollard," said he, "my book, <i>The Biography of a Dead Cow</i>, 
-         is published anonymously, but you can hardly be ignorant of its 
-         authorship.  Yet in reviewing it you speak of it as the work of the 
-         Idiot of the Century.  Do you think that fair criticism?"
-         "I am very sorry, sir," replied the critic, amiably, "but it did 
-         not occur to me that you really might not wish the public to know who 
-         wrote it."
+         &nbsp;&nbsp;&nbsp; One evening Mr. Rudolph Block, of New York, found himself seated at dinner alongside Mr. Percival Pollard, the distinguished critic.
+         &nbsp;&nbsp;&nbsp; "Mr. Pollard," said he, "my book, <i>The Biography of a Dead Cow</i>, is published anonymously, but you can hardly be ignorant of its authorship.  Yet in reviewing it you speak of it as the work of the Idiot of the Century.  Do you think that fair criticism?"
+         &nbsp;&nbsp;&nbsp; "I am very sorry, sir," replied the critic, amiably, "but it did not occur to me that you really might not wish the public to know who wrote it."
          
-         Mr. W.C. Morrow, who used to live in San Jose, California, was 
-         addicted to writing ghost stories which made the reader feel as if a 
-         stream of lizards, fresh from the ice, were streaking it up his back 
-         and hiding in his hair.  San Jose was at that time believed to be 
-         haunted by the visible spirit of a noted bandit named Vasquez, who had 
-         been hanged there.  The town was not very well lighted, and it is 
-         putting it mildly to say that San Jose was reluctant to be out o' 
-         nights.  One particularly dark night two gentlemen were abroad in the 
-         loneliest spot within the city limits, talking loudly to keep up their 
-         courage, when they came upon Mr. J.J. Owen, a well-known journalist.
-         "Why, Owen," said one, "what brings you here on such a night as 
-         this?  You told me that this is one of Vasquez' favorite haunts!  And 
-         you are a believer.  Aren't you afraid to be out?"
-         "My dear fellow," the journalist replied with a drear autumnal 
-         cadence in his speech, like the moan of a leaf-laden wind, "I am 
-         afraid to be in.  I have one of Will Morrow's stories in my pocket and 
-         I don't dare to go where there is light enough to read it."
-         
-         Rear-Admiral Schley and Representative Charles F. Joy were 
-         standing near the Peace Monument, in Washington, discussing the 
-         question, Is success a failure?  Mr. Joy suddenly broke off in the 
-         middle of an eloquent sentence, exclaiming:  "Hello!  I've heard that 
-         band before.  Santlemann's, I think."
-         "I don't hear any band," said Schley.
-         "Come to think, I don't either," said Joy; "but I see General 
-         Miles coming down the avenue, and that pageant always affects me in 
-         the same way as a brass band.  One has to scrutinize one's impressions 
-         pretty closely, or one will mistake their origin."
-         While the Admiral was digesting this hasty meal of philosophy 
-         General Miles passed in review, a spectacle of impressive dignity.  
-         When the tail of the seeming procession had passed and the two 
-         observers had recovered from the transient blindness caused by its 
-         effulgence --
-         "He seems to be enjoying himself," said the Admiral.
-         "There is nothing," assented Joy, thoughtfully, "that he enjoys 
-         one-half so well."
-         
-         The illustrious statesman, Champ Clark, once lived about a mile 
-         from the village of Jebigue, in Missouri.  One day he rode into town 
-         on a favorite mule, and, hitching the beast on the sunny side of a 
-         street, in front of a saloon, he went inside in his character of 
-         teetotaler, to apprise the barkeeper that wine is a mocker.  It was a 
-         dreadfully hot day.  Pretty soon a neighbor came in and seeing Clark, 
-         said:
-         "Champ, it is not right to leave that mule out there in the sun.  
-         He'll roast, sure! -- he was smoking as I passed him."
-         "O, he's all right," said Clark, lightly; "he's an inveterate 
-         smoker."
-         The neighbor took a lemonade, but shook his head and repeated that 
-         it was not right.
-         He was a conspirator.  There had been a fire the night before:  a 
-         stable just around the corner had burned and a number of horses had 
-         put on their immortality, among them a young colt, which was roasted 
-         to a rich nut-brown.  Some of the boys had turned Mr. Clark's mule 
-         loose and substituted the mortal part of the colt.  Presently another 
-         man entered the saloon.
-         "For mercy's sake!" he said, taking it with sugar, "do remove that 
-         mule, barkeeper:  it smells."
-         "Yes," interposed Clark, "that animal has the best nose in 
-         Missouri.  But if he doesn't mind, you shouldn't."
-         In the course of human events Mr. Clark went out, and there, 
-         apparently, lay the incinerated and shrunken remains of his charger. 
-         The boys idd not have any fun out of Mr. Clarke, who looked at the 
-         body and, with the non-committal expression to which he owes so much 
-         of his political preferment, went away.  But walking home late that 
-         night he saw his mule standing silent and solemn by the wayside in the 
-         misty moonlight.  Mentioning the name of Helen Blazes with uncommon 
-         emphasis, Mr. Clark took the back track as hard as ever he could hook 
-         it, and passed the night in town.
-         
-         General H.H. Wotherspoon, president of the Army War College, has a 
-         pet rib-nosed baboon, an animal of uncommon intelligence but 
-         imperfectly beautiful.  Returning to his apartment one evening, the 
-         General was surprised and pained to find Adam (for so the creature is 
-         named, the general being a Darwinian) sitting up for him and wearing 
-         his master's best uniform coat, epaulettes and all.
-         "You confounded remote ancestor!" thundered the great strategist, 
-         "what do you mean by being out of bed after naps? -- and with my coat 
-         on!"
-         Adam rose and with a reproachful look got down on all fours in the 
-         manner of his kind and, scuffling across the room to a table, returned 
-         with a visiting-card:  General Barry had called and, judging by an 
-         empty champagne bottle and several cigar-stumps, had been hospitably 
-         entertained while waiting.  The general apologized to his faithful 
-         progenitor and retired.  The next day he met General Barry, who said:
-         "Spoon, old man, when leaving you last evening I forgot to ask you 
-         about those excellent cigars.  Where did you get them?"
-         General Wotherspoon did not deign to reply, but walked away.
-         "Pardon me, please," said Barry, moving after him; "I was joking 
-         of course.  Why, I knew it was not you before I had been in the room 
-         fifteen minutes."
+         &nbsp;&nbsp;&nbsp; Mr. W.C. Morrow, who used to live in San Jose, California, was addicted to writing ghost stories which made the reader feel as if a stream of lizards, fresh from the ice, were streaking it up his back and hiding in his hair.  San Jose was at that time believed to be haunted by the visible spirit of a noted bandit named Vasquez, who had been hanged there.  The town was not very well lighted, and it is putting it mildly to say that San Jose was reluctant to be out o' nights.  One particularly dark night two gentlemen were abroad in the loneliest spot within the city limits, talking loudly to keep up their courage, when they came upon Mr. J.J. Owen, a well-known journalist.
+         &nbsp;&nbsp;&nbsp; "Why, Owen," said one, "what brings you here on such a night as this?  You told me that this is one of Vasquez' favorite haunts!  And you are a believer.  Aren't you afraid to be out?"
+         &nbsp;&nbsp;&nbsp; "My dear fellow," the journalist replied with a drear autumnal cadence in his speech, like the moan of a leaf-laden wind, "I am afraid to be in.  I have one of Will Morrow's stories in my pocket and I don't dare to go where there is light enough to read it."
+
+         &nbsp;&nbsp;&nbsp; Rear-Admiral Schley and Representative Charles F. Joy were standing near the Peace Monument, in Washington, discussing the question, Is success a failure?  Mr. Joy suddenly broke off in the middle of an eloquent sentence, exclaiming:  "Hello!  I've heard that band before.  Santlemann's, I think."
+         &nbsp;&nbsp;&nbsp; "I don't hear any band," said Schley.
+         &nbsp;&nbsp;&nbsp; "Come to think, I don't either," said Joy; "but I see General Miles coming down the avenue, and that pageant always affects me in the same way as a brass band.  One has to scrutinize one's impressions pretty closely, or one will mistake their origin."
+         &nbsp;&nbsp;&nbsp; While the Admiral was digesting this hasty meal of philosophy General Miles passed in review, a spectacle of impressive dignity.  When the tail of the seeming procession had passed and the two observers had recovered from the transient blindness caused by its effulgence --
+         &nbsp;&nbsp;&nbsp; "He seems to be enjoying himself," said the Admiral.
+         &nbsp;&nbsp;&nbsp; "There is nothing," assented Joy, thoughtfully, "that he enjoys one-half so well."
+
+         &nbsp;&nbsp;&nbsp; The illustrious statesman, Champ Clark, once lived about a mile from the village of Jebigue, in Missouri.  One day he rode into town on a favorite mule, and, hitching the beast on the sunny side of a street, in front of a saloon, he went inside in his character of teetotaler, to apprise the barkeeper that wine is a mocker.  It was a dreadfully hot day.  Pretty soon a neighbor came in and seeing Clark, said:
+         &nbsp;&nbsp;&nbsp; "Champ, it is not right to leave that mule out there in the sun. He'll roast, sure! -- he was smoking as I passed him."
+         &nbsp;&nbsp;&nbsp; "O, he's all right," said Clark, lightly; "he's an inveterate smoker."
+         &nbsp;&nbsp;&nbsp; The neighbor took a lemonade, but shook his head and repeated that it was not right.
+         &nbsp;&nbsp;&nbsp; He was a conspirator.  There had been a fire the night before:  a stable just around the corner had burned and a number of horses had put on their immortality, among them a young colt, which was roasted to a rich nut-brown.  Some of the boys had turned Mr. Clark's mule loose and substituted the mortal part of the colt.  Presently another man entered the saloon.
+         &nbsp;&nbsp;&nbsp; "For mercy's sake!" he said, taking it with sugar, "do remove that mule, barkeeper:  it smells."
+         &nbsp;&nbsp;&nbsp; "Yes," interposed Clark, "that animal has the best nose in Missouri.  But if he doesn't mind, you shouldn't."
+         &nbsp;&nbsp;&nbsp; In the course of human events Mr. Clark went out, and there, apparently, lay the incinerated and shrunken remains of his charger. The boys idd not have any fun out of Mr. Clarke, who looked at the body and, with the non-committal expression to which he owes so much of his political preferment, went away.  But walking home late that night he saw his mule standing silent and solemn by the wayside in the misty moonlight.  Mentioning the name of Helen Blazes with uncommon emphasis, Mr. Clark took the back track as hard as ever he could hook it, and passed the night in town.
+
+         &nbsp;&nbsp;&nbsp; General H.H. Wotherspoon, president of the Army War College, has a pet rib-nosed baboon, an animal of uncommon intelligence but imperfectly beautiful.  Returning to his apartment one evening, the General was surprised and pained to find Adam (for so the creature is named, the general being a Darwinian) sitting up for him and wearing his master's best uniform coat, epaulettes and all.
+         &nbsp;&nbsp;&nbsp; "You confounded remote ancestor!" thundered the great strategist, "what do you mean by being out of bed after naps? -- and with my coat on!"
+         &nbsp;&nbsp;&nbsp; Adam rose and with a reproachful look got down on all fours in the manner of his kind and, scuffling across the room to a table, returned with a visiting-card:  General Barry had called and, judging by an empty champagne bottle and several cigar-stumps, had been hospitably entertained while waiting.  The general apologized to his faithful progenitor and retired.  The next day he met General Barry, who said:
+         &nbsp;&nbsp;&nbsp; "Spoon, old man, when leaving you last evening I forgot to ask youabout those excellent cigars.  Where did you get them?"
+         &nbsp;&nbsp;&nbsp; General Wotherspoon did not deign to reply, but walked away.
+         &nbsp;&nbsp;&nbsp; "Pardon me, please," said Barry, moving after him; "I was joking of course.  Why, I knew it was not you before I had been in the room fifteen minutes."
          
 
     - word: SUCCESS
@@ -7990,8 +7929,8 @@ dictionary:
 
  - letter: T
    terms:
-    - word: T, the twentieth letter of the English alphabet, was by the Greeks absurdly called <i>tau</i>.  In the alphabet whence ours comes it had the form of the rude corkscrew of the period, and when it stood alone (which was more than the Phoenicians could always do) signified <i>Tallegal</i>, translated by the learned Dr. Brownrigg, "tanglefoot."
-      type: T, the twentieth letter of the English alphabet, was by the Greeks absurdly called <i>tau</i>.  In the alphabet whence ours comes it had the form of the rude corkscrew of the period, and when it stood alone (which was more than the Phoenicians could always do) signified <i>Tallegal</i>, translated by the learned Dr. Brownrigg, "tanglefoot."
+    - word: T
+      type: ""
       def: >- 
          T, the twentieth letter of the English alphabet, was by the Greeks absurdly called <i>tau</i>.  In the alphabet whence ours comes it had the form of the rude corkscrew of the period, and when it stood alone (which was more than the Phoenicians could always do) signified <i>Tallegal</i>, translated by the learned Dr. Brownrigg, "tanglefoot."
 
@@ -8154,15 +8093,10 @@ dictionary:
       type: n.
       def: >- 
          A creature thoughtfully created to supply occasion for the following lines by the illustrious Ambat Delaso:
-
-    - word: 
-TO MY PET TORTOISE
-      type: 
-TO MY PET TORTOISE
-      def: >- 
-         
-TO MY PET TORTOISE
+            
       poem: |+ 
+         TO MY PET TORTOISE
+         
          My friend, you are not graceful -- not at all;
          Your gait's between a stagger and a sprawl.
          
@@ -8433,8 +8367,8 @@ TO MY PET TORTOISE
 
  - letter: W
    terms:
-    - word: W (double U) has, of all the letters in our alphabet, the only cumbrous name, the names of the others being monosyllabic.  This advantage of the Roman alphabet over the Grecian is the more valued after audibly spelling out some simple Greek word, like <i>epixoriambikos</i>.  Still, it is now thought by the learned that other agencies than the difference of the two alphabets may have been concerned in the decline of "the glory that was Greece" and the rise of "the grandeur that was Rome."  There can be no doubt, however, that by simplifying the name of W (calling it "wow," for example) our civilization could be, if not promoted, at least better endured.
-      type: W (double U) has, of all the letters in our alphabet, the only cumbrous name, the names of the others being monosyllabic.  This advantage of the Roman alphabet over the Grecian is the more valued after audibly spelling out some simple Greek word, like <i>epixoriambikos</i>.  Still, it is now thought by the learned that other agencies than the difference of the two alphabets may have been concerned in the decline of "the glory that was Greece" and the rise of "the grandeur that was Rome."  There can be no doubt, however, that by simplifying the name of W (calling it "wow," for example) our civilization could be, if not promoted, at least better endured.
+    - word: W 
+      type: ""
       def: >- 
          W (double U) has, of all the letters in our alphabet, the only cumbrous name, the names of the others being monosyllabic.  This advantage of the Roman alphabet over the Grecian is the more valued after audibly spelling out some simple Greek word, like <i>epixoriambikos</i>.  Still, it is now thought by the learned that other agencies than the difference of the two alphabets may have been concerned in the decline of "the glory that was Greece" and the rise of "the grandeur that was Rome."  There can be no doubt, however, that by simplifying the name of W (calling it "wow," for example) our civilization could be, if not promoted, at least better endured.
 
@@ -8465,17 +8399,13 @@ TO MY PET TORTOISE
       type: n.
       def: >- 
          A by-product of the arts of peace.  The most menacing political condition is a period of international amity.  The student of history who has not been taught to expect the unexpected may justly boast himself inaccessible to the light.  "In time of peace prepare for war" has a deeper meaning than is commonly discerned; it means, not merely that all things earthly have an end -- that change is the one immutable and eternal law -- but that the soil of peace is thickly sown with the seeds of war and singularly suited to their germination and growth.  It was when Kubla Khan had decreed his "stately pleasure dome" -- when, that is to say, there were peace and fat feasting in Xanadu -- that he
-      poem: |+ 
+        
+         <blockquote> 
+         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; heard from afar<br>
+         Ancestral voices prophesying war.<br>
+         </blockquote>
          
-         heard from afar
-         Ancestral voices prophesying war.
-         
-         One of the greatest of poets, Coleridge was one of the wisest of 
-         men, and it was not for nothing that he read us this parable.  Let us 
-         have a little less of "hands across the sea," and a little more of 
-         that elemental distrust that is the security of nations.  War loves to 
-         come like a thief in the night; professions of eternal amity provide 
-         the night.
+         One of the greatest of poets, Coleridge was one of the wisest of men, and it was not for nothing that he read us this parable.  Let us have a little less of "hands across the sea," and a little more of that elemental distrust that is the security of nations.  War loves to come like a thief in the night; professions of eternal amity provide the night.
          
 
     - word: WASHINGTONIAN
@@ -8632,7 +8562,6 @@ TO MY PET TORTOISE
          Balthasar Pober
          
          
-
     - word: WORMS'-MEAT
       type: n.
       def: >- 
@@ -8673,8 +8602,8 @@ TO MY PET TORTOISE
 
  - letter: X
    terms:
-    - word: X in our alphabet being a needless letter has an added invincibility to the attacks of the spelling reformers, and like them, will doubtless last as long as the language.  X is the sacred symbol of ten dollars, and in such words as Xmas, Xn, etc., stands for Christ, not, as is popular supposed, because it represents a cross, but because the corresponding letter in the Greek alphabet is the initial of his name -- <i>Xristos</i>.  If it represented a cross it would stand for St. Andrew, who "testified" upon one of that shape.  In the algebra of psychology x stands for Woman's mind.  Words beginning with X are Grecian and will not be defined in this standard English dictionary.
-      type: X in our alphabet being a needless letter has an added invincibility to the attacks of the spelling reformers, and like them, will doubtless last as long as the language.  X is the sacred symbol of ten dollars, and in such words as Xmas, Xn, etc., stands for Christ, not, as is popular supposed, because it represents a cross, but because the corresponding letter in the Greek alphabet is the initial of his name -- <i>Xristos</i>.  If it represented a cross it would stand for St. Andrew, who "testified" upon one of that shape.  In the algebra of psychology x stands for Woman's mind.  Words beginning with X are Grecian and will not be defined in this standard English dictionary.
+    - word: X 
+      type: ""
       def: >- 
          X in our alphabet being a needless letter has an added invincibility to the attacks of the spelling reformers, and like them, will doubtless last as long as the language.  X is the sacred symbol of ten dollars, and in such words as Xmas, Xn, etc., stands for Christ, not, as is popular supposed, because it represents a cross, but because the corresponding letter in the Greek alphabet is the initial of his name -- <i>Xristos</i>.  If it represented a cross it would stand for St. Andrew, who "testified" upon one of that shape.  In the algebra of psychology x stands for Woman's mind.  Words beginning with X are Grecian and will not be defined in this standard English dictionary.
 
