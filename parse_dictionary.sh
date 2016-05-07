@@ -26,7 +26,7 @@ function PRINT_WORD() {
 	if ! [ -z "${POEM}" ]; then
 		echo "      poem: |+ "
 		echo "${POEM}"
-		echo "      author: ${AUTHOR}"
+#		echo "      author: ${AUTHOR}"
 	fi
 	echo ""
 }
@@ -58,7 +58,7 @@ while IFS= read -r CMD; do
 		continue
 	fi
 
-	CMD=$(echo "${CMD}" | sed -e 's/\(.*\):/\1\\:/g' | sed -e 's/\[/\\\[/g' | sed -e 's/\]/\\\]/g' | sed -e 's/^[ \t]*//g' | sed -e 's/_\([^_]*\)_/\<i\>\1\<\/i\>/g' | sed -e 's/"/\\"/g' )
+	CMD=$(echo "${CMD}" | sed -e 's/\(.*\):/\1\\:/g' | sed -e 's/\[/\\\[/g' | sed -e 's/\]/\\\]/g' | sed -e 's/               /\n/' | sed -e 's/^[ \t]*//g' | sed -e 's/_\([^_]*\)_/\<i\>\1\<\/i\>/g' | sed -e 's/"/\\"/g' )
 
 	if [ "${MODE}" == "NEW" ]; then
 #		BLOCK=${BLOCK}$(echo "${CMD}" | sed -e 's/\(.*\):/\1\\:/g' | sed -e 's/\[/\\\[/g' | sed -e 's/\]/\\\]/g' | sed -e 's/^[ \t]*//g')
@@ -101,8 +101,9 @@ while IFS= read -r CMD; do
 				MODE="WAIT"
 			fi
 		elif [ "${MODE}" == "WAIT" ]; then
-			POEM=$(echo "${NBLOCK}" | sed -e '$ d' | sed -e '$ d' | sed -e '$ d')
-			AUTHOR=$(echo "${NBLOCK}" | sed -e '$ d' | sed -e '$ d' | sed -n 's/\ *\([^\s\\]\)/\1/p' | tail -1)
+#			POEM=$(echo "${NBLOCK}" | sed -e '$ d' | sed -e '$ d' | sed -e '$ d')
+			POEM=$(echo "${NBLOCK}")
+#			AUTHOR=$(echo "${NBLOCK}" | sed -e '$ d' | sed -e '$ d' | sed -n 's/\ *\([^\s\\]\)/\1/p' | tail -1)
 		fi
 	fi
 
