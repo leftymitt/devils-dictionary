@@ -58,21 +58,15 @@ while IFS= read -r CMD; do
 		continue
 	fi
 
-#	CMD=$(echo "${CMD}" | sed -e 's/\(.*\):/\1\\:/g' | sed -e 's/\[/\\\[/g' | sed -e 's/\]/\\\]/g' | sed -e 's/               /\n/' | sed -e 's/^[ \t]*//g' | sed -e 's/_\([^_]*\)_/\<i\>\1\<\/i\>/g' | sed -e 's/"/\\"/g' )
 	CMD=$(echo "${CMD}" | sed -e 's/               /\n/' | sed -e 's/^[ \t]*//g' | sed -e 's/_\([^_]*\)_/\<i\>\1\<\/i\>/g' )
 
 	if [ "${MODE}" == "NEW" ]; then
-#		BLOCK=${BLOCK}$(echo "${CMD}" | sed -e 's/\(.*\):/\1\\:/g' | sed -e 's/\[/\\\[/g' | sed -e 's/\]/\\\]/g' | sed -e 's/^[ \t]*//g')
 		BLOCK=${BLOCK}${CMD}
 	elif [ "${MODE}" == "WAIT" ]; then
-#		NBLOCK=${NBLOCK}$(echo "${CMD}" | sed -e 's/\(.*\):/\1\\:/g' | sed -e 's/"/\\"/g' | sed -e 's/\[/\\\[/g' | sed -e 's/\]/\\\]/g' | sed -e 's/^[ \t]*//g' | sed -e 's/^/         /g')$'\n'
 		NBLOCK=${NBLOCK}$(echo "${CMD}" | sed -e 's/^/         /g')$'\n'
 	fi
 
-
-#	NEWTERM=$(echo "${CMD}" | sed -n "s/\(^[A-Z][A-Z|(|)|-| |o|r]*[A-Z]\)[,|.].*/\1/p")
 	NEWTERM=$(echo "${CMD}" | sed -n "s/\(^[A-Z][A-Z()\-]*[A-Z]\).*/\1/p")
-#	NEWTERM=$(echo "${CMD}" | perl -pe "s/(^[A-Z][A-Z| ()or'-]*[A-Z])[.|,] *([\w\.]*)? *(.*)?/\1/p")
 
 	if ! [ -z "${NEWTERM}" ]; then 
 		if ! [ -z "${TERM}" ]; then 
@@ -92,19 +86,14 @@ while IFS= read -r CMD; do
 
 	if [ "${CMD}" == '' ]; then
 		if [ "${MODE}" == "NEW" ]; then
-#			TERM=$(echo "${BLOCK}" | perl -pe "s|(^[A-Z]+[A-Z'()or -]*[A-Z])[,\.].*|\1|" | tail -1)
-#			TYPE=$(echo "${BLOCK}" | sed -n "s/\(^[A-Z].*[A-Z]\)[,\.]\ \(.*\.\).*/\2/p" | cut -d" " -f1)
-#			DEF=$(echo "${BLOCK}" | perl -pe "s|^[A-Z]+[A-Z'()or -]*[A-Z\|'\|-]*[A-Z],\ .*?\.\ \ (.*)|\1|")
 			TERM=$(echo "${BLOCK}" | perl -pe "s/(^[A-Z][A-Z| ()or'-]*[A-Z])[.|,] *([\w\.]*)? *(.*)?/\1/p")
 			TYPE=$(echo "${BLOCK}" | perl -pe "s/(^[A-Z][A-Z| ()or'-]*[A-Z])[.|,] *([\w\.]*)? *(.*)?/\2/p")
 			DEF=$(echo "${BLOCK}" | perl -pe "s/(^[A-Z][A-Z| ()or'-]*[A-Z])[.|,] *([\w\.]*)? *(.*)?/\3/p")
 
-#			if ! [ -z "${TERM}" ] && [ "${TERM}" != "\n" ]; then
 			if ! [ -z "${TERM}" ]; then
 				MODE="WAIT"
 			fi
 		elif [ "${MODE}" == "WAIT" ]; then
-#			POEM=$(echo "${NBLOCK}" | sed -e '$ d' | sed -e '$ d' | sed -e '$ d')
 			POEM=$(echo "${NBLOCK}")
 #			AUTHOR=$(echo "${NBLOCK}" | sed -e '$ d' | sed -e '$ d' | sed -n 's/\ *\([^\s\\]\)/\1/p' | tail -1)
 		fi
