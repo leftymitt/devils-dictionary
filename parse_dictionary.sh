@@ -1,5 +1,14 @@
 #! /bin/bash
 
+################################################################################
+# parse a text-file of ambrose bierce's *the devil's dictionary* and use the 
+# entries to generate a yaml file for all the words. 
+################################################################################
+
+################################################################################
+# set global variables. 
+################################################################################
+
 FILE="bierce-devils-286.txt"
 
 BLOCK=""
@@ -13,6 +22,20 @@ POEM=""
 AUTHOR=""
 
 MODE="NEW"
+
+
+################################################################################
+# function that prints all information from a given dictionary entry in yaml 
+# format.  
+#
+# dictionary:
+#  - letter: letter of the alphabet
+#    terms: 
+#     - name: the word
+#     - type: part of speech (noun, adj, etc.)
+#     - def:  definition
+#     - poem: some entries have poems (handles poorly)
+################################################################################
 
 function PRINT_WORD() {
 	echo "    - word: ${TERM}"
@@ -31,6 +54,10 @@ function PRINT_WORD() {
 	echo ""
 }
 
+
+################################################################################
+# run the script. uses lots of sed and perl regexes. 
+################################################################################
 
 echo "dictionary:"
 
