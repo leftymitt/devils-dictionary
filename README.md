@@ -1,11 +1,11 @@
 # the devil's dictionary
 
-an html copy of ambrose bierce's *the devil's dictionary*. 
+an html to yaml converter for ambrose bierce's *the devil's dictionary*. 
 run: 
 
 ```
-$ ./parsed_dictionary > devils.dictionary.yml
+$ ./parse_dictionary.sh > devils.dictionary.yml
 ```
 
-the parser isn't completely good. 
+the parser doesn't parse everything correctly. 
 some manual post-processing is required. 
